@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/btn_btnview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ButtonView"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/btn_wbsview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WebSiteView"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/btn_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EditTextView"
+            android:textAllCaps="false"
+            android:textSize="50px"></Button>
+
+        <Button
+            android:id="@+id/btnRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RadioButtonView"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/btnImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ImageView"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/btnDialogs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DialogsView"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/ed_intent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:hint="在这里输入要传送的内容"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:scrollHorizontally="true" />
+
+            <Button
+                android:id="@+id/btnIntent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="传送"
+                android:textStyle="bold"
+                android:textSize="50px" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecyclerView"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/btn_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ListView"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/btn_gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GridView"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/btn_drawerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DrawerLayout"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/btn_swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SwipeRefreshLayout"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/btn_clock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ClockView"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/btn_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ToastView"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/btn_pop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PopUpWindow"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+        <Button
+            android:id="@+id/btn_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+        <Button
+            android:id="@+id/btn_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+ <Button
+            android:id="@+id/btn_actionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ActionBarView"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/btn_switchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SwitchButton"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+   <Button
+            android:id="@+id/btn_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spinner"
+            android:textAllCaps="false"
+            android:textSize="50px" />
+
+    </LinearLayout>
+
+</ScrollView>

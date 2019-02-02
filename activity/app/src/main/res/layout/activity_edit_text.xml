@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="欢迎>>"
+        android:textSize="80dp"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/ed_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_ed_login"
+        android:hint="电话"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:scrollHorizontally="true"
+        android:textColor="#555555"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ed_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed_1"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_ed_login"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:paddingLeft="5dp"
+        android:scrollHorizontally="true"
+        android:textColor="#555555"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/L_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed_2"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ed_2"
+            android:layout_weight="1"
+            android:text="Login"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ed_2"
+            android:layout_toRightOf="@id/btn_login"
+            android:layout_weight="1"
+            android:text="Reset"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="返回"
+        android:textSize="15sp"
+        android:visibility="invisible" />
+</RelativeLayout>

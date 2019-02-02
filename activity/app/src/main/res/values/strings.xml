@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">你好</string>
+    <string name="text1">我是一行汉字</string>
+    <string name="text2">我是一行跑马灯~跑啊跑~跑啊跑~</string>
+</resources>

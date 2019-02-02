@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntentActivity"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center|bottom">
+
+<EditText
+    android:id="@+id/ed_intentBack"
+    android:textSize="50px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></LinearLayout>
+    <Button
+        android:id="@+id/btn_intentBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="回传"
+        android:textSize="20sp"/>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:text="口算大师"
+        android:textSize="50sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V2.0"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"/>
+<LinearLayout
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|bottom">
+    <Button
+        android:id="@+id/btn_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="进入"
+        android:textSize="20sp"/>
+</LinearLayout>
+</LinearLayout>

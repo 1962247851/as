@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/tv_level"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_Symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:id="@+id/llt_tv"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/textViewNumA"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/textViewFuHao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:text="+" />
+
+        <TextView
+            android:id="@+id/textViewNumB"
+            android:layout_width="75sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:text="0" />
+        <TextView
+            android:layout_width="35sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="="
+            android:textSize="35sp"
+            android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/textViewAnswer"
+                android:maxLines="2"
+                android:layout_width="150sp"
+                android:layout_height="100sp"
+                android:textSize="35sp"
+                android:text=""
+                android:gravity="center"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llt_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewTips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="请选择!"
+                android:textSize="25sp" />
+            <LinearLayout
+                android:id="@+id/llt_btnStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <Button
+                    android:id="@+id/btn_start"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="开始->>"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    //按钮线性布局
+    <LinearLayout
+        android:id="@+id/llt_btn"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:layout_marginBottom="35dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_n1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_n2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_n3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/btn_n4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_n5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_n6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_n7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_n8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_n9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="清空"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_n0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="提交"
+                android:textSize="20sp" />
+    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_negative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="负号"
+                android:textSize="20sp"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重选"
+                android:textSize="20sp"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/btn_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="作者"
+                android:textSize="20sp"
+                android:gravity="center"/>
+        </LinearLayout>
+</LinearLayout>
+    //难度选择线性布局
+    <LinearLayout
+        android:id="@+id/llt_select"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="请选择运算类型（可多选）"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="加法"
+
+                    />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="减法" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="乘法" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="取商" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="请选择难度"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/checkBox5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="入门"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/checkBox6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="普通"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/checkBox7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="进阶"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/checkBox8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="困难"
+                        android:layout_weight="1"/>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llt_btnQueDing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|bottom">
+
+                <Button
+                    android:id="@+id/btn_queDing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="确定"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

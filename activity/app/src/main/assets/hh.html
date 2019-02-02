@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" name="clock" id="clock" value="" style="width: 500px;"/>
+<button id="stop" onclick="timer=window.clearInterval(timer)">停止时间函数</button>
+<script type="text/javascript">
+            function clock(){
+                var t = new Date();
+                document.getElementById('clock').value = t;
+            }
+            var timer = setInterval(clock, 50);
+            var stop = document.getElementById('stop');
+            stop.onclick = function(){
+                clearInterval(timer);
+            }
+        </script>
+
+<style type="text/css">
+        #content{
+            position:relative;
+            height: 500px;
+            width: 500px;
+            background-color: #666;
+        }
+        #one{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            font-size: 50px;
+            line-height: 50px;
+            text-align: right;
+            color: #fff;
+        }
+    </style>
+
+<div style="width:50% min-height:200px">
+    <pre id="language_one" style=" color:#F93; font-size:20px;"></pre>
+    <div style="display:none;" id="language_two">
+我要一个一个的出现,我要一个一个的出现.
+
+我要一个一个的出现,我要一个一个的出现.
+
+我要一个一个的出现,我要一个一个的出现.
+
+我要一个一个的出现,我要一个一个的出现.
+
+我要一个一个的出现,我要一个一个的出现.
+    </div>
+</div>
+<script language="javascript">
+    var index=0;
+    var word=document.getElementById("language_two").innerHTML;
+    function type(){
+        document.getElementById("language_one").innerText = word.substring(0,index++);
+    }
+    setInterval(type, 300);
+</script>
+
+</body>
+</html>

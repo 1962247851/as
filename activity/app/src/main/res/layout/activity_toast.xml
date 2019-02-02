@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <Button
+        android:id="@+id/btn_toast_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="默认Toast"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/btn_toast_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="居中Toast"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/btn_toast_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomToast"
+        android:textAllCaps="false"
+        android:textSize="50px" />
+    <Button
+        android:id="@+id/btn_toast_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToastUtil"
+        android:textSize="50px"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_toast_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DeleteToast"
+        android:textSize="50px"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

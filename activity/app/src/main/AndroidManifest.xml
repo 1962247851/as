@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jn.mjz.activity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Spinner.SpinnerActivity"></activity>
+        <activity android:name=".SwitchButton.SwitchButtonActivity" />
+        <activity android:name=".ActionBar.ActionBarActivity" />
+        <activity android:name=".RecyclerView.StaggerRecyclerView" />
+        <activity android:name=".RecyclerView.GridRecyclerView" />
+        <activity android:name=".RecyclerView.LinearRecyclerView" />
+        <activity android:name=".RecyclerView.LinearRecyclerVieww" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Demo"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TextViewActivity" />
+        <activity android:name=".Button.ButtonViewActivity" />
+        <activity android:name=".WebSiteActivity" />
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".RadioButtonActivity" />
+        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".IntentActivity" />
+        <activity android:name=".GridView.GridViewActivity" />
+        <activity android:name=".DrawerViewActivity" />
+        <activity android:name=".SwipeRefreshLayoutActivity" />
+        <activity android:name=".Clock.ClockViewActivity" />
+        <activity android:name=".Toast.ToastActivity" />
+        <activity android:name=".PopUp.PopUpWindowActivity" />
+        <activity android:name=".Progress.ProgressActivity" />
+        <activity android:name=".Fragment.ContainerActivity" />
+        <activity android:name=".ListView.ListViewActivity" />
+        <activity android:name=".RecyclerView.RecyclerViewActivity" />
+    </application>
+
+</manifest>
